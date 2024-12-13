@@ -1,0 +1,984 @@
+@font-face {
+    font-family: 'BitstreamIon';
+    /* Custom name for the font */
+    src: url('./assets/fonts/bitstream-iowan-old-style-black-bt-586c36e930225.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./assets/fonts/bitstream-iowan-old-style-bold-bt-586c371d8d669.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FontMaine';
+    src: url('./assets/fonts/bitstream-iowan-old-style-bold-bt-586c371d8d669.ttf')format('woff');
+    font-weight: lighter;
+
+}
+
+.profile-name {
+    font-family: 'CustomFont', Style;
+    font-size: 22.15px;
+    font-weight: 400;
+    line-height: 22.15px;
+    text-align: left;
+}
+
+.OUR {
+    font-family: 'Gotham Light';
+    font-weight: lighter;
+    font-size: 1.60rem;
+    margin: 10px;
+}
+
+.FirstTeams {
+    padding: 20px;
+    background: #FFEADF;
+ 
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.FirstTeam {
+    position: relative;
+    top: 90px;
+}
+
+.FlexImg {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: solid 1px #137B92;
+    padding: 10px;
+    gap: 1px;
+}
+
+.FlexImg img {
+    position: relative;
+    left: 50px;
+    height: 40px;
+}
+
+.advisory {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.advisory-Two {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 20px;
+}
+
+.FlexImg {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.FlexImg p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+
+.Program {
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.8);
+
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 1.20rem;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+.arrows {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #fff;
+    background: #44B5D0;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+.arrow {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #fff;
+    background: #44B5D0;
+    padding: 15px;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+.lines {
+    background: #137B92;
+    padding: 5px;
+    margin: 30px;
+    margin-top: 40px;
+}
+
+.imageChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    /* Restricts the width on larger screens */
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 10px;
+    /* Adds some space around the image */
+}
+
+.profile-details {
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 5px;
+    position: relative;
+
+    padding: 10px;
+
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    max-width: 100%;
+
+    margin: 20px;
+
+    text-align: center;
+    position: relative;
+    top: 150px;
+
+}
+
+.profile-details {
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 5px;
+    position: relative;
+
+    padding: 10px;
+
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    max-width: 100%;
+
+    margin: 20px;
+
+    text-align: center;
+    position: relative;
+    top: 190px;
+
+}
+
+.back-Executive {
+    background-color: #FFEADF;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 100px;
+    margin: 5px;
+}
+
+.Executivemem {
+    font-size: 1.90rem;
+    font-weight: bolder;
+}
+
+.profile-image {
+    width: 500px;
+
+    height: 350px;
+    border-radius: 5px 5px 5px;
+    /* Make the image circular */
+    margin-bottom: 10px;
+    /* Space below the image */
+}
+
+.FlexImg {
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Center align items vertically */
+    justify-content: center;
+    /* Center align items horizontally */
+    margin-bottom: 10px;
+    /* Space below the name and LinkedIn icon */
+}
+
+.FlexImg p {
+    margin-right: 10px;
+    /* Space between name and LinkedIn icon */
+    font-weight: bold;
+    /* Bold the name */
+}
+
+.linkedin {
+    width: 24px;
+   
+    height: 24px;
+   
+
+}
+
+.profile-details p {
+    margin: 10px 0;
+    /* Space above and below paragraphs */
+}
+
+.role {
+    margin-top: auto;
+    /* Push role to the bottom */
+    font-style: italic;
+    /* Italic style for role */
+
+    /* Dark gray color for better readability */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.imageChild img {
+    width: 100%;
+
+    height: auto;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.FlexImg img {
+    width: 40px;
+    border-radius: 5px 5px;
+}
+
+.EXECUTIVE {
+    text-align: center;
+    font-size: 1.30rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color: black;
+    color: white;
+    margin: 30px;
+
+    padding: 20px;
+}
+
+.TeamHeader {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 40px;
+    top: 90px;
+}
+
+.council {
+    background: #44B5D0;
+    padding: 15px;
+    color: white;
+    margin: 35px;
+    margin-bottom: 40px;
+    font-family: 'Gotham Light';
+    font-weight: lighter;
+    font-size: 1.20rem;
+
+}
+
+
+
+
+.linkedin-icon {
+    margin-left: 10px;
+}
+
+
+.advisory-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+   
+    align-items: center;
+   
+    max-width: 100%;
+    /* Limit the container width */
+    
+
+
+}
+
+.advisory-one {
+
+
+    width: 80%;
+
+    height: 500px;
+    /* Increase height to show more of the image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition */
+}
+
+.advisory-one:hover {
+    transform: scale(1.05);
+    /* Add a hover effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    /* Enhance hover shadow */
+}
+
+.content-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.85);
+    /* Slightly transparent white background */
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.FlexImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.FlexImg p {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 1.4em;
+    /* Increase font size */
+
+}
+
+.profile-role {
+    font-size: 1.2em;
+    /* Increase role text size */
+
+    margin: 5px 0;
+}
+
+.linkedin-icon {
+    display: block;
+    filter: grayscale(100%);
+    /* Add a subtle effect to the LinkedIn icon */
+    transition: filter 0.3s ease;
+}
+
+.linkedin-icon:hover {
+    filter: grayscale(0%);
+    /* Remove the effect on hover */
+}
+
+
+
+@media (max-width: 768px) {
+    .arrow {
+        padding: 15px;
+        position: absolute;
+        right: 30px;
+        padding: 15px;
+    }
+
+    .arrows {}
+
+    .advisory-container {
+        grid-template-columns: 1fr;
+
+        overflow-x: hidden;
+    }
+
+    .advisory-one {
+        width: 350px;
+        padding: 5px;
+    }
+
+    .advisory-one:nth-child(3) {
+        grid-column: span 1;
+        /* Resets third item to full width */
+    }
+
+    .content-overlay {
+        padding: 15px;
+    }
+
+    .FlexImg p {
+        font-size: 1.2em;
+    }
+
+    .profile-role {
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imageChild {
+    position: relative;
+    /* Allows positioning of the arrow within the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.imageChild img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.arrow-container {
+    position: absolute;
+    /* Positions the arrow relative to the .imageChild */
+    top: 80%;
+    /* Adjust this value to move the arrow down (closer to 100% means further down) */
+    left: 50%;
+    /* Keeps the arrow centered horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjusts position to truly center it */
+    background-color: #3DA1B9;
+    /* Sets the background color */
+    border-radius: 50%;
+    /* Makes the background circular */
+    padding: 20px;
+    /* Adjusts the size of the background circle */
+}
+
+.arrowx {
+    color: white;
+    /* Makes the arrow white for contrast */
+    font-size: 32px;
+    /* Increases the size of the arrow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D9D9D9;
+}
+
+.Footerx {
+    background-color: #000;
+    /* Black background for the footer */
+    padding: 20px;
+    margin-top: 30px;
+    color: #D9D9D9;
+    /* Light gray text */
+    text-align: center;
+}
+
+.mailing p {
+    color: #D9D9D9;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.linkx ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.linkx ul li a {
+    color: #FFFFFF;
+    /* White text for links */
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.3s ease;
+}
+
+.linkx ul li a:hover {
+    color: #3DA1B9;
+    /* Hover effect with blue color */
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1c1c1c;
+    /* Darker gray background for the input container */
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #2e2e2e;
+    /* Darker background for the input */
+    color: #FFFFFF;
+}
+
+.input-container input::placeholder {
+    color: #999;
+    /* Light gray for the placeholder text */
+}
+
+.arrowss {
+    font-size: 24px;
+    color: #3DA1B9;
+    cursor: pointer;
+    background-color: #2e2e2e;
+    /* Matches the input background */
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.arrowss:hover {
+    background-color: #3DA1B9;
+    color: #FFFFFF;
+    /* Arrow color changes on hover */
+}
+
+.socialMediaLinks {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.socialMediaLinks a {
+    color: #3DA1B9;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.socialMediaLinks a:hover {
+    color: #FFFFFF;
+    /* White color on hover */
+}
+
+.BackFunct {
+    background-color: #000;
+    color: white;
+    position: relative;
+    top: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.biography {
+    font-family: 'BitstreamIon', sans-serif;
+    font-size: 16px;
+
+
+}
+
+.BackFunctAdvisory {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.40rem;
+    font-family: Io;
+    gap: 2;
+
+}
+
+.RESERVED {
+    color: #D9D9D9;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.875rem;
+    border-top: 1px solid #3DA1B9;
+    margin-top: 20px;
+}
+
+.back-buttons {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 100px;
+    margin: 5px;
+    ;
+}
+
+.back-button {
+background-color: #44B5D0;
+    color: white;
+    font-size: 1rem;
+
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+.Advisorys {
+    font-size: 1.30rem;
+    color: white;
+    padding: 5px;
+}
+
+@media (max-width: 600px) {
+    .back-buttons {
+        position: relative;
+        right: 10px;
+        color: whitesmoke;
+        border-radius: 10px 10px 10px 10px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .back-button {
+        font-size: 1.30rem;
+       
+    }
+
+    .FlexImg img {
+        margin-right: 45px;
+    }
+
+    .input-container {
+        flex-direction: column;
+    }
+
+    .arrow {
+        padding: 10px;
+
+
+        font-size: 1.20rem;
+        font-weight: bolder;
+    }
+
+    .socialMediaLinks {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .linkx ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.executive-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.executive-one {
+    position: relative;
+    flex-basis: calc(50% - 20px);
+
+    max-width: calc(50% - 10px);
+    height: 400px;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.executive-one:hover {
+    transform: scale(1.05);
+    /* Slight zoom on hover */
+}
+
+.executive-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: fit-content;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+    width: 811.93px;
+}
+
+.executive-details {
+
+    bottom: 10px;
+
+margin-left: 40px;
+    width: 80%;
+
+    border-radius: 10px 10px 10px;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.executive-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.executive-role {
+    font-size: 16px;
+    color: gray;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .EXECUTIVE {
+        position: relative;
+        right: 15px;
+    }
+
+    .executive-one {
+        flex-basis: calc(100% - 20px);
+
+
+       
+
+    }
+
+    .executive-image {
+        width: 400px;
+    }
+
+    .executive-details {
+        width: 300px;
+        position: absolute;
+        left: 2px;
+
+        font-size: 15px;
+        font-weight: bolder;
+        margin: 10px;
+    }
+
+    .executive-name {
+        font-size: 16px;
+    }
+
+    .executive-role {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .executive-one {
+        flex-basis: calc(100% - 10px);
+        /* Full width on mobile */
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .council {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        right: 50px;
+    }
+
+    .executive-details {}
+
+    .executive-name {
+        font-size: 14px;
+    }
+
+    .executive-role {}
+
+    .arrow {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .profile-details {
+        position: relative;
+        bottom: 10px;
+    }
+
+    .RESERVED {
+        font-size: 1rem;
+    }
+
+    .BackFunct {
+        padding: 15px;
+    }
+
+    .biography {
+        margin: 10px;
+        padding: 5px;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .linkx {
+
+        display: block;
+    }
+
+    .EXECUTIVE {
+        width: 80%;
+        padding: 25px;
+        margin-right: 10px;
+        border-radius: 5px 5px 5px;
+    }
+
+    .imageChild {
+        width: 300px;
+    }
+
+    .advisory-Two {
+        max-width: 90%;
+        height: 250px;
+        margin: 10px auto;
+    }
+
+    .FlexImg {
+        justify-content: center;
+    }
+    
+
+    .advisory-Two p {
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    .advisory-container {
+        flex-direction: column;
+    }
+
+    .advisory-one {
+        max-width: 90%;
+        margin: 10px auto;
+    }
+
+    .profile-image {
+        width: 300px;
+        height: 200px;
+    }
+
+    .advisory-one p {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .linkedin {
+        margin-right: 50px;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
